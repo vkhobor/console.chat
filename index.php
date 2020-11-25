@@ -84,6 +84,6 @@
 			<p><a href="https://dalton.1mb.site" target="_blank">Dalton Edwards</a> – Copyright 2019</p>
 			<p><a href="https://github.com/DaltonWebDev/console.chat" target="_blank">Source Code</a> / <a href="https://www.buymeacoffee.com/DaltonEdwards" target="_blank">Support Me</a></p>
 		</footer>
-		<script src="https://console.chat/load.js"></script>
+		<script src="https://chat-consolee.herokuapp.com/load.js"></script>
 	</body>
 </html>
