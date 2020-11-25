@@ -21,7 +21,7 @@ function username(x) {
 }
 var messageCount = 0;
 function loadMessages() {
-	var myRequest = new Request('https://console.chat/api/read.php?domain=' + domain);
+	var myRequest = new Request('https://chat-consolee.herokuapp.com/api/read.php?domain=' + domain);
 	fetch(myRequest)
   		.then(function(response) { return response.json(); })
   		.then(function(data) {
@@ -36,7 +36,7 @@ function loadMessages() {
 }
 function send(message, color = '000000') {
 	var usernameLS = localStorage.getItem('username');
-	var myRequest = new Request('https://console.chat/api/send.php');
+	var myRequest = new Request('https://chat-consolee.herokuapp.com/api/send.php');
 	if (usernameLS === null) {
 		var outputtedMessage = message;
 	} else {
